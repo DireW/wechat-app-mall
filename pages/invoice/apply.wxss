@@ -1,72 +1,81 @@
 @import "/template/login/index.wxss";
 
 page {
-  background-color: #f0f2f6;
+    background-color: #f0f2f6;
 }
+
 .form {
-  width: 702rpx;
-  background: #FFFFFF;
-  border-radius: 16rpx;
-  margin: 24rpx;
-  display: flex;
-  flex-direction: column;
+    width: 702 rpx;
+    background: #FFFFFF;
+    border-radius: 16 rpx;
+    margin: 24 rpx;
+    display: flex;
+    flex-direction: column;
 }
+
 .form .title {
-  margin-top: 32rpx;
-  margin-left: 24rpx;
-  margin-bottom: 24rpx;
-  font-family: PingFangSC-Medium;
-  font-size: 30rpx;
-  color: #333333;
+    margin-top: 32 rpx;
+    margin-left: 24 rpx;
+    margin-bottom: 24 rpx;
+    font-family: PingFangSC-Medium;
+    font-size: 30 rpx;
+    color: #333333;
 }
+
 .form .input {
-  width: 654rpx;
-  height: 90rpx;
-  position: relative;
-  margin-left: 24rpx;
+    width: 654 rpx;
+    height: 90 rpx;
+    position: relative;
+    margin-left: 24 rpx;
 }
+
 .form .input view {
-  position: absolute;
-  left: 0;
-  top: 0;
-  line-height: 90rpx;
-  font-family: PingFangSC-Regular;
-  font-size: 26rpx;
-  color: #555555;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 90 rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 26 rpx;
+    color: #555555;
 }
+
 .form .input input {
-  border-bottom: 1rpx solid #E6E6E6;
-  padding-left: 200rpx;
-  height: 90rpx;
+    border-bottom: 1 rpx solid #E6E6E6;
+    padding-left: 200 rpx;
+    height: 90 rpx;
 }
+
 .placeholder {
-  font-family: PingFangSC-Regular;
-  font-size: 26rpx;
-  color: #999999;
-  letter-spacing: -0.82rpx;
-  line-height: 90rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 26 rpx;
+    color: #999999;
+    letter-spacing: -0.82 rpx;
+    line-height: 90 rpx;
 }
+
 .save-btn {
-  position: fixed;
-  left: 24rpx;
-  bottom: 32rpx;
-  width: 702rpx;
-  height: 98rpx;
-  background: #FEB21C;
-  border-radius: 49rpx;
-  text-align: center;
-  font-family: PingFangSC-Medium;
-  font-size: 32rpx;
-  color: #FFFFFF;
-  letter-spacing: 0;
-  line-height: 98rpx;
+    position: fixed;
+    left: 24 rpx;
+    bottom: 32 rpx;
+    width: 702 rpx;
+    height: 98 rpx;
+    background: #FEB21C;
+    border-radius: 49 rpx;
+    text-align: center;
+    font-family: PingFangSC-Medium;
+    font-size: 32 rpx;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 98 rpx;
 }
+
 .hasRight {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .hasRight .import {
-  margin-right: 32rpx;
-  font-size:26rpx;
-  color: #e64340;
+    margin-right: 32 rpx;
+    font-size: 26 rpx;
+    color: #e64340;
 }

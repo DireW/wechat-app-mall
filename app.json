@@ -82,7 +82,7 @@
   },
   "permission": {
     "scope.userLocation": {
-      "desc": "获取离你最近的门店"
+      "desc": "更新当前位置"
     }
   },
   "usingComponents": {

@@ -1,42 +1,47 @@
 .page__title {
-  padding-left: 20rpx;
+    padding-left: 20 rpx;
 }
-.charge-rule-wrap{
-  background: white;
-  margin-top:20rpx;
-  padding:10rpx;
-  padding-left:20rpx;
-  display: flex;
-  flex-direction:row;
-  flex-wrap:wrap;
+
+.charge-rule-wrap {
+    background: white;
+    margin-top: 20 rpx;
+    padding: 10 rpx;
+    padding-left: 20 rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.btn{
+
+.btn {
     box-sizing: border-box;
     text-align: center;
-    border-radius: 6rpx;
-    margin-left: 20rpx;
+    border-radius: 6 rpx;
+    margin-left: 20 rpx;
 }
-.charge-detail{
-  width:220rpx;
-  height:100rpx;
-  color:rgba(99, 190, 133, 1);
-  background-color:white;
-  border:3rpx solid rgba(99, 190, 133, 1);
-  display:table-cell;
-  line-height:30rpx;
-  font-weight:300;
-  font-size:30rpx;
-  margin:10rpx;
-  align-items:flex-start;
+
+.charge-detail {
+    width: 220 rpx;
+    height: 100 rpx;
+    color: rgba(99, 190, 133, 1);
+    background-color: white;
+    border: 3 rpx solid rgba(99, 190, 133, 1);
+    display: table-cell;
+    line-height: 30 rpx;
+    font-weight: 300;
+    font-size: 30 rpx;
+    margin: 10 rpx;
+    align-items: flex-start;
 }
-.charge-detail text{
-  vertical-align:middle;
-  font-size: 28rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top:12rpx;
+
+.charge-detail text {
+    vertical-align: middle;
+    font-size: 28 rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12 rpx;
 }
-.button-hover{
-  background-color:grey;
+
+.button-hover {
+    background-color: grey;
 }

@@ -1,18 +1,21 @@
 .notice {
-  padding: 32rpx;
-  font-size: 26rpx;
-  color: #333;
+    padding: 32 rpx;
+    font-size: 26 rpx;
+    color: #333;
 }
+
 .title {
-  width: 100%;
-  font-weight: bold;
-  border-bottom: 1rpx solid #eaeaea;
-  padding-bottom: 32rpx;
+    width: 100%;
+    font-weight: bold;
+    border-bottom: 1 rpx solid #eaeaea;
+    padding-bottom: 32 rpx;
 }
+
 .text {
-  margin-top: 32rpx;
-  line-height: 64rpx;
+    margin-top: 32 rpx;
+    line-height: 64 rpx;
 }
+
 .text image {
-  max-width: 100%;
+    max-width: 100%;
 }

@@ -15,17 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EastWorld/wechat-app-mall.git"
+    "url": "git+https://github.com/DireW/wechat-app-mall.git"
   },
   "keywords": [
-    "微店",
-    "小店",
-    "微商城"
+    "房产",
+    "订单",
+    "人员管理"
   ],
-  "author": "gooking",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EastWorld/wechat-app-mall/issues"
-  },
-  "homepage": "https://github.com/EastWorld/wechat-app-mall#readme"
+  "author": "DireW",
+  "license": "ISC"
 }

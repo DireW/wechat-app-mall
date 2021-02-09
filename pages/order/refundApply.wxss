@@ -1,4 +1,4 @@
 .price {
-  color:#e64340;
-  font-weight: bold;
+    color: #e64340;
+    font-weight: bold;
 }

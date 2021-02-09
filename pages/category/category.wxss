@@ -1,257 +1,275 @@
 page {
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
-page,view,image,input {
-  display: block;
-  box-sizing: border-box;
+
+page, view, image, input {
+    display: block;
+    box-sizing: border-box;
 }
 
 .container {
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .search {
-  margin-top: 32rpx;
-  position: relative;
-  width: 700rpx;
-  height: 66rpx;
+    margin-top: 32 rpx;
+    position: relative;
+    width: 700 rpx;
+    height: 66 rpx;
 }
+
 .search input {
-  border: 1rpx solid #e3e3e3;
-  width: 700rpx;
-  height: 66rpx;
-  border-radius: 30rpx;
-  padding-left: 32rpx; 
+    border: 1 rpx solid #e3e3e3;
+    width: 700 rpx;
+    height: 66 rpx;
+    border-radius: 30 rpx;
+    padding-left: 32 rpx;
 }
+
 .search image {
-  width: 35rpx;
-  height: 35rpx;
-  position: absolute;
-  top: 16rpx;
-  right: 32rpx;
+    width: 35 rpx;
+    height: 35 rpx;
+    position: absolute;
+    top: 16 rpx;
+    right: 32 rpx;
 }
 
 .content-container {
-  width: 100vw;
-  height: 100%;
-  margin-top: 32rpx;
-  display: flex;
+    width: 100vw;
+    height: 100%;
+    margin-top: 32 rpx;
+    display: flex;
 }
 
 .category-container {
-  width: 180rpx;
-  height: 100%;
+    width: 180 rpx;
+    height: 100%;
 }
 
 .category-container .category {
-  padding: 30rpx 0rpx;
-  text-align: center;
+    padding: 30 rpx 0 rpx;
+    text-align: center;
 }
 
 .category-container .category.active {
-  background: #fff;
-  border-left: 4rpx solid #d81e06;
+    background: #fff;
+    border-left: 4 rpx solid #d81e06;
 }
 
 .category-container .category .name {
-  display: inline-block;
-  font-size: 28rpx;
-  color: #646464;
-  line-height: 1.2;
-  text-align: left;
-  pointer-events: none;
+    display: inline-block;
+    font-size: 28 rpx;
+    color: #646464;
+    line-height: 1.2;
+    text-align: left;
+    pointer-events: none;
 }
 
 .category-container .category .name.active {
-  color: #d81e06;
-  font-weight: bold;
+    color: #d81e06;
+    font-weight: bold;
 }
 
 .goods-container {
-  flex: 1;
-  background: #fff;
-  min-height: 100%;
+    flex: 1;
+    background: #fff;
+    min-height: 100%;
 }
 
 .goods-container .title {
-  text-align: left;
-  padding: 10rpx 30rpx;
-  color: #515151;
-  font-size: 22rpx;
-  line-height: 30rpx;
-  background: rgba(216, 30, 6, 0.3);
+    text-align: left;
+    padding: 10 rpx 30 rpx;
+    color: #515151;
+    font-size: 22 rpx;
+    line-height: 30 rpx;
+    background: rgba(216, 30, 6, 0.3);
 }
 
 .goods-container .goods {
-  position: relative;
-  padding: 20rpx 30rpx;
-  font-size: 36rpx;
-  line-height: 40rpx;
-  border-bottom: 1px solid #f7f7f7;
+    position: relative;
+    padding: 20 rpx 30 rpx;
+    font-size: 36 rpx;
+    line-height: 40 rpx;
+    border-bottom: 1px solid #f7f7f7;
 }
 
 .goods-container .goods .pic {
-  float: left;
-  width: 140rpx;
-  height: 140rpx;
-  margin-right: 20rpx;
-  border-radius: 6rpx;
-  display: flex;
-  flex-direction: column;
+    float: left;
+    width: 140 rpx;
+    height: 140 rpx;
+    margin-right: 20 rpx;
+    border-radius: 6 rpx;
+    display: flex;
+    flex-direction: column;
 }
 
 .goods-container .goods .pic .fresh-tag {
-  position: absolute;
-  top: 15rpx;
-  left: 25rpx;
-  width: 60rpx;
-  height: 60rpx;
+    position: absolute;
+    top: 15 rpx;
+    left: 25 rpx;
+    width: 60 rpx;
+    height: 60 rpx;
 }
 
 .goods-container .goods .name {
-  color: #000;
-  font-size: 28rpx;
-  line-height: 46rpx;
-  font-weight: bold;
+    color: #000;
+    font-size: 28 rpx;
+    line-height: 46 rpx;
+    font-weight: bold;
 }
 
 .goods-container .goods .soldInfo {
-  display: flex;
-  flex-direction: row;
-  width: 350rpx;
-  align-items: flex-start;
-  margin-top: 5rpx;
+    display: flex;
+    flex-direction: row;
+    width: 350 rpx;
+    align-items: flex-start;
+    margin-top: 5 rpx;
 }
 
 .goods-container .goods .soldInfo .good-price-box {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-end;
-  overflow: hidden;
-  font-size: 22rpx;
-  line-height: 22rpx;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+    font-size: 22 rpx;
+    line-height: 22 rpx;
 }
 
 .goods-container .goods .soldInfo .good-price-box .price {
-  color: #d81e06;
-  margin-top: 10rpx;
-  width: 120rpx;
-  font-size: 28rpx;
-  font-weight: bold;
-  line-height: 40rpx;
+    color: #d81e06;
+    margin-top: 10 rpx;
+    width: 120 rpx;
+    font-size: 28 rpx;
+    font-weight: bold;
+    line-height: 40 rpx;
 }
 
 .goods-container .goods .soldInfo .good-sales-box {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  overflow: hidden;
-  font-size: 22rpx;
-  line-height: 22rpx;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: hidden;
+    font-size: 22 rpx;
+    line-height: 22 rpx;
 }
 
 .goods-container .goods .soldInfo .good-sales-box .number {
-  color: #d81e06;
-  padding: 2px;
-  border: 1px solid #d81e06;
-  border-radius: 5rpx;
+    color: #d81e06;
+    padding: 2px;
+    border: 1px solid #d81e06;
+    border-radius: 5 rpx;
 }
 
 .ellipsis {
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-box-orient: vertical;
-  word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
 }
 
 .medium-category {
-  margin: 32rpx 0;
+    margin: 32 rpx 0;
 }
+
 .medium-category .line {
-  width:60rpx;
+    width: 60 rpx;
 }
+
 .medium-category .txt {
-  color: #333;
+    color: #333;
 }
+
 .small-category-box {
-  width: 570rpx;
-  display: flex;
-  flex-wrap: wrap;
+    width: 570 rpx;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .small-category {
-  width: 147rpx;
-  margin-top: 32rpx;
-  margin-left: 32rpx;
+    width: 147 rpx;
+    margin-top: 32 rpx;
+    margin-left: 32 rpx;
 }
+
 .small-category image {
-  width: 147rpx;
-  height: 147rpx;
+    width: 147 rpx;
+    height: 147 rpx;
 }
+
 .small-category view {
-  text-align: center;
-  font-size: 24rpx;
-  color: #666;
+    text-align: center;
+    font-size: 24 rpx;
+    color: #666;
 }
+
 .car {
-  position: absolute;
-  width: 46rpx;
-  height: 46rpx;
-  bottom: 64rpx;
-  right: 36rpx;
+    position: absolute;
+    width: 46 rpx;
+    height: 46 rpx;
+    bottom: 64 rpx;
+    right: 36 rpx;
 }
 
 .sku-mask {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
 }
+
 .sku-container {
-  width: 100vw;
-  padding: 32rpx 32rpx 0 32rpx;
+    width: 100vw;
+    padding: 32 rpx 32 rpx 0 32 rpx;
 }
+
 .sku-container .sku {
-  border-bottom: 1rpx solid #eee;
-  padding-bottom: 24rpx;
-  margin-bottom: 16rpx;
+    border-bottom: 1 rpx solid #eee;
+    padding-bottom: 24 rpx;
+    margin-bottom: 16 rpx;
 }
+
 .sku-container .sku .t {
-  color: #333;
+    color: #333;
 }
+
 .sku-container .sku .items {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .sku-container .sku .items text {
-  padding: 8rpx;
-  border: 1rpx solid #999;
-  color: #999;
-  margin: 24rpx 24rpx 0 0;
-  font-size: 26rpx;
-  border-radius: 12rpx;
+    padding: 8 rpx;
+    border: 1 rpx solid #999;
+    color: #999;
+    margin: 24 rpx 24 rpx 0 0;
+    font-size: 26 rpx;
+    border-radius: 12 rpx;
 }
+
 .sku-container .sku .items text.active {
-  border: 1rpx solid #e64340;
-  color: #e64340;
+    border: 1 rpx solid #e64340;
+    color: #e64340;
 }
+
 .sku-container .num {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 24rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24 rpx;
 }
+
 .sku-container .num .t {
-  color: #333;
+    color: #333;
 }

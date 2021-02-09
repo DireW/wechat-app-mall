@@ -1,146 +1,164 @@
 @import "/template/login/index.wxss";
 
 .header-box {
-  background: #e64340;
-  padding: 32rpx;
-  display: flex;
-  align-items: center;
+    background: #e64340;
+    padding: 32 rpx;
+    display: flex;
+    align-items: center;
 }
+
 .header-box .avatar {
-  width: 128rpx;
-  height: 128rpx;
-  border-radius: 50%;
+    width: 128 rpx;
+    height: 128 rpx;
+    border-radius: 50%;
 }
+
 .header-box .btn {
-  margin-left: 32rpx;
+    margin-left: 32 rpx;
 }
+
 .header-box .r {
-  margin-left: 32rpx;
-  color: #EEEEEE;
-  font-size: 28rpx;
+    margin-left: 32 rpx;
+    color: #EEEEEE;
+    font-size: 28 rpx;
 }
 
-page,view,image,input {
-  display: block;
-  box-sizing: border-box;
+page, view, image, input {
+    display: block;
+    box-sizing: border-box;
 }
 
-.container{
-  min-height: 100%;
-  overflow: hidden;
-  overflow-y: hidden;
+.container {
+    min-height: 100%;
+    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .asset {
-  display: flex;
-  border-top: 1px solid #eee;
-  padding-top:20rpx;
-  padding-bottom:20rpx;
+    display: flex;
+    border-top: 1px solid #eee;
+    padding-top: 20 rpx;
+    padding-bottom: 20 rpx;
 }
+
 .asset .item {
-  display: flex;
-  flex-direction: column;
-  width:187rpx;
-  text-align: center;
-  font-size: 13px;
-  line-height: 20px;
-  color:#333;
+    display: flex;
+    flex-direction: column;
+    width: 187 rpx;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
 }
+
 .asset .right {
-  border-left: 1px solid #eee;
+    border-left: 1px solid #eee;
 }
 
 .version {
-  width:100vw;
-	font-size: 24rpx;
-	text-align: center;
-  padding: 32rpx;
+    width: 100vw;
+    font-size: 24 rpx;
+    text-align: center;
+    padding: 32 rpx;
 }
 
 .order-shortcut {
-  display: flex;
-  padding-top: 20rpx;
-  padding-bottom: 20rpx;
+    display: flex;
+    padding-top: 20 rpx;
+    padding-bottom: 20 rpx;
 }
+
 .order-shortcut .item {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 150rpx;
-  text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 150 rpx;
+    text-align: center;
 }
+
 .order-shortcut .item .dot {
-  position: absolute;
-  right: 20rpx;
-  top: -8rpx;
-  min-width: 32rpx;
-  height: 32rpx;
-  padding: 0 7rpx;
-  line-height: 32rpx;
-  font-size: 18rpx;
-  border-radius: 32rpx;
-  background: #FF4949;
-  color: #fff;
-  text-align: center;
+    position: absolute;
+    right: 20 rpx;
+    top: -8 rpx;
+    min-width: 32 rpx;
+    height: 32 rpx;
+    padding: 0 7 rpx;
+    line-height: 32 rpx;
+    font-size: 18 rpx;
+    border-radius: 32 rpx;
+    background: #FF4949;
+    color: #fff;
+    text-align: center;
 }
+
 .order-shortcut .item .icon {
-  width: 67rpx;
-  height: 67rpx;
-  margin-left: 45rpx;
+    width: 67 rpx;
+    height: 67 rpx;
+    margin-left: 45 rpx;
 }
+
 .order-shortcut .item .text {
-  margin-top: 8rpx;
-  font-size: 24rpx;
-  color: #666;
+    margin-top: 8 rpx;
+    font-size: 24 rpx;
+    color: #666;
 }
-.to-authorize{
-  padding: 0rpx;
-  margin: 0rpx;
-  background: none;
-  border: none;
-  height: auto;
-  line-height: auto;
+
+.to-authorize {
+    padding: 0 rpx;
+    margin: 0 rpx;
+    background: none;
+    border: none;
+    height: auto;
+    line-height: auto;
 }
+
 /* 绑定手机号 */
-.bind-phone-number{
-  margin: 20rpx;
-  width: 100%;
+.bind-phone-number {
+    margin: 20 rpx;
+    width: 100%;
 }
+
 /* flex重新构建菜单 */
 .menu-item {
-  width: 100vw;
-  height: 104rpx;
-  padding: 0 32rpx;
-  background: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 100vw;
+    height: 104 rpx;
+    padding: 0 32 rpx;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .menu-item .l {
-  font-size:34rpx;
-  color:#333;
-  line-height:104rpx;
+    font-size: 34 rpx;
+    color: #333;
+    line-height: 104 rpx;
 }
+
 .menu-item .r {
-  font-size:32rpx;
-  color:#999;
-  line-height:104rpx;
+    font-size: 32 rpx;
+    color: #999;
+    line-height: 104 rpx;
 }
+
 .menu-item .next {
-  width: 40rpx;
-  height: 40rpx;
+    width: 40 rpx;
+    height: 40 rpx;
 }
+
 .menu-item button {
-  margin: 0;
+    margin: 0;
 }
+
 .space {
-  width: 100vw;
-  height: 16rpx;
-  background: #F4F5F9;
+    width: 100vw;
+    height: 16 rpx;
+    background: #F4F5F9;
 }
+
 .line {
-  width:718px;
-  height:1px;
-  background:#EEEEEE;
-  margin-left: 32rpx;
+    width: 718px;
+    height: 1px;
+    background: #EEEEEE;
+    margin-left: 32 rpx;
 }

@@ -1,128 +1,148 @@
-.container{
+.container {
     width: 100%;
     background-color: #F2f2f2;
 }
-.status-box{
-    width:100%;
-    height: 88rpx;
-    line-height: 88rpx;
+
+.status-box {
+    width: 100%;
+    height: 88 rpx;
+    line-height: 88 rpx;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
 }
-.status-box .status-label{
-    width: 150rpx;
+
+.status-box .status-label {
+    width: 150 rpx;
     height: 100%;
     text-align: center;
-    font-size:28rpx;
-    color:#353535;
+    font-size: 28 rpx;
+    color: #353535;
     box-sizing: border-box;
     position: relative;
 }
-.status-box .status-label.active{
-    color:#e64340;
-    border-bottom: 6rpx solid #e64340;
+
+.status-box .status-label.active {
+    color: #e64340;
+    border-bottom: 6 rpx solid #e64340;
 }
-.no-order{
+
+.no-order {
     width: 100%;
     position: absolute;
     bottom: 0;
-    top: 88rpx;
+    top: 88 rpx;
     left: 0;
     right: 0;
     text-align: center;
-    padding-top: 203rpx;
+    padding-top: 203 rpx;
     background-color: #F2f2f2;
 }
-.no-order-img{
-    width: 81rpx;
-    height: 96rpx;
-    margin-bottom: 31rpx;
+
+.no-order-img {
+    width: 81 rpx;
+    height: 96 rpx;
+    margin-bottom: 31 rpx;
 }
-.no-order .text{
-    font-size:28rpx;
-    color:#999999;
+
+.no-order .text {
+    font-size: 28 rpx;
+    color: #999999;
     text-align: center
 }
-.order-list{
+
+.order-list {
     width: 100%;
 }
-.order-list .a-order{
+
+.order-list .a-order {
     width: 100%;
     background-color: #fff;
-    margin-top: 20rpx;
+    margin-top: 20 rpx;
 }
-.a-order  .goods-info,
-.goods-img-container{
-    width: 720rpx;
-    margin-left: 30rpx;
-    border-top: 1rpx solid #eee;
-    padding: 30rpx 0;
+
+.a-order .goods-info,
+.goods-img-container {
+    width: 720 rpx;
+    margin-left: 30 rpx;
+    border-top: 1 rpx solid #eee;
+    padding: 30 rpx 0;
     display: flex;
     align-items: center;
 }
+
 .goods-price {
-  font-size:26rpx;
-  width:720rpx;
-  text-align: right;
-  margin-bottom:30rpx;
+    font-size: 26 rpx;
+    width: 720 rpx;
+    text-align: right;
+    margin-bottom: 30 rpx;
 }
+
 .goods-price .p {
-  font-size:36rpx;
-  color:#e64340;
+    font-size: 36 rpx;
+    color: #e64340;
 }
-.goods-info .img-box{
-    width: 120rpx;
-    height: 120rpx;
+
+.goods-info .img-box {
+    width: 120 rpx;
+    height: 120 rpx;
     overflow: hidden;
-    margin-right: 30rpx;
+    margin-right: 30 rpx;
     background-color: #f7f7f7;
 }
+
 .goods-info .img-box .goods-img,
-.goods-img-container .img-box .goods-img{
-    width: 120rpx;
-    height: 120rpx;
+.goods-img-container .img-box .goods-img {
+    width: 120 rpx;
+    height: 120 rpx;
 }
-.goods-info  .goods-des{
-    font-size:26rpx;
-    color:#000000;
+
+.goods-info .goods-des {
+    font-size: 26 rpx;
+    color: #000000;
 }
-.goods-img-container{
-    height: 180rpx;
+
+.goods-img-container {
+    height: 180 rpx;
     box-sizing: border-box;
     white-space: nowrap;
 }
-.goods-img-container .img-box{
-    width: 120rpx;
-    height: 120rpx;
+
+.goods-img-container .img-box {
+    width: 120 rpx;
+    height: 120 rpx;
     overflow: hidden;
-    margin-right: 20rpx;
+    margin-right: 20 rpx;
     background-color: #f7f7f7;
     display: inline-block;
 }
-.price-box{
-    width: 720rpx;
+
+.price-box {
+    width: 720 rpx;
     display: flex;
-    flex-direction:row-reverse;
-    padding-bottom: 30rpx;
+    flex-direction: row-reverse;
+    padding-bottom: 30 rpx;
 }
-.price-box .btn{
-    width: 166rpx;
-    height: 60rpx;
+
+.price-box .btn {
+    width: 166 rpx;
+    height: 60 rpx;
     box-sizing: border-box;
     text-align: center;
-    line-height: 60rpx;
-    border: 1rpx solid #ccc;
-    border-radius: 6rpx;
-    margin-left: 20rpx;
-    font-size:26rpx;
+    line-height: 60 rpx;
+    border: 1 rpx solid #ccc;
+    border-radius: 6 rpx;
+    margin-left: 20 rpx;
+    font-size: 26 rpx;
 }
-.price-box .active{
-    border:1px solid #e64340;
+
+.price-box .active {
+    border: 1px solid #e64340;
     color: #e64340;
 }
+
 .remark {
-  color:#e64340;
-  margin-bottom: 20rpx;
+    color: #e64340;
+    margin-bottom: 20 rpx;
 }
